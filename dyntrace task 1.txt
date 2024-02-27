@@ -1,0 +1,227 @@
+                                            Create your Dynatrace Account
+1.To create an account
+Go to the Dynatrace free trial page.
+
+2.Enter your business email address and  create your pasward and select Start free trial.
+
+3.click continue
+
+4.provide your account details
+Provide a few account details (nothing too technical) and agree to the terms and conditions.
+
+5.click continue
+
+6.Select Create account.
+Once created, you'll be shown the page below and you can deploy Dynatrace
+
+
+                                               Deploy Dynatrace
+
+
+Dynatrace provides infrastructure monitoring as well as full-stack monitoring of your applications and services through automatic instrumentation with our OneAgent technology.
+
+                                               
+Deploy Dynatrace OneAgent.
+Download the OneAgent. Follow these steps below to install Dynatrace OneAgent on a host. Select Dynatrace Hub on the left navigation bar. Select OneAgent. ...
+Validate the installation in Deployment status. Click on Deployment status in the left navigation to check the status of the connected host.
+
+                                        dynatrace host monitoring proceses
+
+
+https://youtu.be/dvGOC-2yN7I?si=tkwohkS8nOggLaY2
+
+Dynatrace can monitor all hosts in your environment with the Dynatrace OneAgent installed. The OneAgent collects performance and event-related information from the host and sends it to Dynatrace. This information is used to monitor the health and performance of the host, as well as to troubleshoot problems.
+
+
+                                                  Vulnerabilities
+
+Vulnerabilities are weaknesses in a system that gives threats the opportunity to compromise assets. All systems have vulnerabilities. Even though the technologies are improving but the number of vulnerabilities are increasing such as tens of millions of lines of code, many developers, human weaknesses, etc. Vulnerabilities mostly happened because of Hardware, Software, Network and Procedural vulnerabilities. 
+
+1. Hardware Vulnerability: A hardware vulnerability is a weakness which can used to attack the system hardware through physically or remotely. For examples:
+Old version of systems or devices
+Unprotected storage
+Unencrypted devices, etc.
+
+2. Software Vulnerability: A software error happen in development or configuration such as the execution of it can violate the security policy. For examples:
+Lack of input validation
+Unverified uploads
+Cross-site scripting
+Unencrypted data, etc.
+
+3. Network Vulnerability: A weakness happen in network which can be hardware or software. For examples:
+Unprotected communication
+Malware or malicious software (e.g.:Viruses, Keyloggers, Worms, etc)
+Social engineering attacks
+Misconfigured firewalls
+
+4. Procedural Vulnerability: A weakness happen in an organization operational methods. For examples:
+Password procedure – Password should follow the standard password policy.
+Training procedure – Employees must know which actions should be taken and what to do to handle the security. Employees must never be asked for user credentials online. Make the employees know social engineering and phishing threats.
+
+
+                                               Host Performance
+
+
+Host Performance view
+Use this view to identify multipath validation and host balancing. The performance values aggregate performance statistics for each host. The Internal Volume metric columns show the aggregate performance measurements of all internal volumes that the host accesses. The Volume metric columns show the aggregate performance measurements of all volumes the host accesses.
+
+Navigation
+From the Open menu, select Performance > Host Performance.
+
+Column descriptions
+
+blank
+Column that organizes the data according to the selected grouping format. Applicable with any presentation order other than No Grouping.
+
+registered icon
+Icon indicating that the host referenced by the policy is registered to the current user. To view only those policies for your registered hosts, filter by this icon.
+
+Name
+Name of host on the network.
+
+icon (Are there violations?)
+Icon that indicates a policy violation.
+
+Application
+Names of the applications associated with the host.
+
+Application Priority
+The importance of this application within your organization, as set when defining the application.
+Tenant, Line of Business, Business Unit, Project
+Columns listing the business entity components associated with the applications.
+
+V-Cluster
+Name of a cluster of virtualization hosts that share access to the same SAN volumes or NAS share. For a standalone host, this is blank.
+
+CPU Utilization
+Amount of actively used CPU, as a percentage of total available (over all virtual CPUs).
+
+Memory Utilization
+Threshold for the memory used by the host.
+
+Disk IOPS (R)
+Total number of read I/O service requests to the disk passing through the I/O channel or portion of that channel per unit of time (measured in I/O per sec).
+
+Disk Latency (R)
+The sum of Disk Read Latency for the sampling period. Average amount of time taken during the interval to process SCSI read commands issued from the Guest OS to the virtual machine.
+
+Disk Throughput (R)
+Portion of data that the disk read in response to I/O service requests to the disk (measured in MB per sec).
+
+Disk IOPS
+The sum of Disk Read IOPS and Disk Write IOPS.
+
+Top Disk IOPS
+The maximum (over all disks) for total IOPS.
+
+Disk Latency
+The sum of Disk Read Latency and Disk Write Latency for the sampling period.
+
+Top Disk Latency
+The maximum disk latency that the disk discovered for the sampling period.
+
+Disk Throughput
+Portion of data that the disk sent/received in response to I/O service requests to the disk (measured in megabytes per sec).
+
+Top Disk Throughput
+The maximum amount of data that the disk can transmit in a fixed amount of time in response to I/O service requests to the disk (measured in megabytes per sec).
+
+Disk IOPS (W)
+Total number of write I/O service requests to the disk passing through the I/O channel or portion of that channel per unit of time (measured in I/O per sec).
+
+Disk Latency (W)
+The sum of Disk Write Latency for the sampling period. Average amount of time taken during the interval to process SCSI write commands issued from the Guest OS to the virtual machine.
+
+Disk Throughput (W)
+Portion of data that the disk writes in response to I/O service requests to the disk (measured in megabytes per sec).
+
+IP Throughput (Receive)
+Average rate at which disk IP data was received in megabytes.
+
+IP Throughput
+Aggregate rate at which disk IP data was transmitted and received in megabytes.
+
+IP Throughput (Transmit)
+Average rate at which disk IP data was transmitted in megabytes.
+
+Disk Accessed
+Indication if at least one disk was accessed (for read or write).
+
+IP Accessed
+Indication if Guest OS received or transmitted any IP data.
+
+FC Balance Index
+The standard deviation from the traffic average for all of the Fibre Channel ports; a high value (above 50) signifies a ratio problem between the host ports, meaning that some ports are experiencing a large amount of traffic and others very low, indicating a potential problem.
+
+Volume Response Time (R&W)
+The time in milliseconds that it takes from the moment a request for information arrives at the storage device to the time when the storage devices begin to send the information back in response. This is the actual latency of the device, based on live samplings whenever possible. OnCommand Insight measures response times from within the storage array.
+
+Top Volume Response Time
+The maximum amount of time it can take from the moment a request for information arrives at the storage device until the time when the storage devices begin to send the information back in response.
+
+Volume IOPS (R&W)
+Measures the total number of Read/Write I/O service requests passing through the I/O channel or portion of that channel per unit of time (measured in I/O per sec).
+
+Top Volume IOPS
+The maximum number of Read or Write I/O service requests.
+
+Volume Throughput (R&W)
+Amount of Read or Write data that is being received in a fixed amount of time in response to I/O service requests (measured in megabytes per sec).
+
+Top Volume Throughput
+The maximum rate that data can be transmitted.
+
+Volume Cache Hit Ratio (R&W)
+Percentage of Read/Write requests that result in cache hits. The higher the number of hits versus accesses to the volume, the better the performance.
+
+Volume Partial R/W
+Total number of times that a read or write crosses a stripe boundary on the volume. Generally, stripe crossings are not beneficial, because each one requires an additional I/O. A low percentage indicates an efficient stripe element size, while a high percentage indicates improper alignment of a volume (or a NetApp LUN).
+
+Write Pending
+The number of Write I/O service requests that are pending.
+
+Volume Accessed
+???Yes??? indicates that the resource was accessed in the selected time range.
+
+Internal Volume Response Time (R&W)
+The time it takes from the moment a request for information arrives at the storage device to the time when the storage devices begin to send the information back in response. This is the actual latency of the device, based on live samplings whenever possible. OnCommand Insight measures response times from within the storage array. The value is measured in milliseconds.
+
+Top Internal Volume Response Time
+The maximum time it takes from the moment a request for information arrives at the storage device until the time when the storage devices begin to send the information back in response.
+
+Internal Volume IOPS (R&W)
+The total number of Read/Write I/O service requests passing through the I/O channel or portion of that channel per unit of time (measured in I/O per sec).
+
+Top Internal Volume IOPS
+The maximum number of Read or Write I/O service requests.
+
+Internal Volume Throughput (R&W)
+Amount of Read or Write data that is being received in a fixed amount of time in response to I/O service requests (measured in megabytes per sec).
+
+Top Internal Volume Throughput
+The maximum rate that data can be transmitted in a fixed amount of time.
+
+Internal Volume Accessed
+???Yes??? indicates that the resource was accessed in the selected time range.
+
+annotations
+User-defined terminology associated with the devices.
+
+Options
+The following options are available from the right-click menu:
+
+Analyze
+Available only with the Perform license. Allows you to investigate the performance of the selected resources affected by the violation. For example, you can determine contention issues, availability issues, and array performance. The Host Summary tab provides information that might be needed for troubleshooting.
+
+Analyze Storage Pools
+Available only with the Assure license. Allows you to select a specific storage pool and assess its status related to the thin provisioning policies. You can use this dialog box, instead of the Violations Browser, to see the current thin provisioning violations and how close the storage pool is to reaching the policy limits.
+
+Modify Policy
+Changes the policy that governs alerts set on this resource. This option requires the Assure license.
+
+
+
+
+
+
+
